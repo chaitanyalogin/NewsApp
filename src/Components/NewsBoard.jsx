@@ -12,7 +12,7 @@ const NewsBoard = ({ category }) => {
 
       try {
 
-        const url = `https://news-backend-abc123.onrender.com/api/news?category=${category}`;
+        const url = `https://backendnewsapp.onrender.com/api/news?category=${category}`
 
         const res = await axios.get(url)
 
